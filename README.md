@@ -1,35 +1,48 @@
-### About Me:
+# Hi, I'm C-Reaper ![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-Hi, I'm C-Reaper,
 a systems-level developer who enjoys building software that is fast, lightweight, and close to the metal.
-I really like many programming languages from different categories:
+I write everything in C.
 
-### Low-Level Languages:
-![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000?style=for-the-badge&logo=rust&logoColor=white)
-![Assembly](https://img.shields.io/badge/-Assembly-F05032?style=for-the-badge&logo=assembly&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Zig](https://img.shields.io/badge/-Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=black)
+- Not because it's the easiest language.
+- Not because it's the most modern one.
+- But because it gives complete control over what the machine actually does.
 
-### Modern Languages:
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+This profile is dedicated to building software from the ground up.
 
-Projects in these languages are mostly not provided in this profile because its purpose is to showcase implementations in **C**.
+- No heavy frameworks.
+- No hidden abstractions.
+- No giant dependency trees.
+
+Just C, the compiler, and the machine.
+
+# Philosophy
+
+Modern software often relies on thousands of external dependencies.
+While this approach is convenient, it also hides how systems actually work.
+The goal of this repository collection is different.
+Every project here aims to understand and implement things at their core.
+Instead of importing libraries, I prefer to build them myself.
+Not because it is required — but because building things yourself teaches you how they truly work.
+
+C remains one of the most powerful languages for understanding computers.
+When you write software in C, there is very little standing between your code and the machine.
+
+That simplicity is what makes it powerful.
 
 ---
 
 ### Why C ?
 
 I primarily work with **C** because I love how powerful and fast it is, while giving the programmer a high level of control over the hardware — especially memory and code execution.
-In **C**, everything is explicit, clear, and readable.
-The downside of **C** is its age and the minimal standard libraries.
+In **C**, everything is explicit, clear, and readable. You have to start thinking about:
 
+- memory
+- data layout
+- performance
+- architecture
+- system interfaces
+
+The downside of **C** is its age and the minimal standard libraries.
 Solving this problem is my main goal by implementing projects that are built by hand using only a few libc functions from headers like **stdio.h**, **stdlib.h**, **string.h**, etc.
 Many functions provided by these headers have equivalent implementations in my library collection, e.g., intrinsic functions like **memcpy** and **memset**, or formatting/parsing functions like **sprintf**, **itoa**, etc.
 
