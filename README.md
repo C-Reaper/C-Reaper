@@ -131,3 +131,4 @@ $$    $$/        $$ |  $$ |$$       |$$    $$ |$$    $$/ $$       |$$ |
 ![GitHub Followers](https://img.shields.io/github/followers/C-Reaper?label=Followers&style=for-the-badge&color=blueviolet)
 ![Visitors](https://komarev.com/ghpvc/?username=C-Reaper&color=blueviolet&style=for-the-badge&label=VISITORS)
 ![Trophy](https://github-profile-trophy.vercel.app/?username=C-Reaper)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=C-Reaper&layout=compact&theme=github_dark)
